@@ -9,7 +9,7 @@ production service, just gonna copy from here.
 ## To add
 
 - [ ] Kubernetes
-    - [ ] Deployment, Secret, ConfigMap, HPA
+    - [x] Deployment, Secret, ConfigMap, HPA
     - [ ] Mounting Volume
     - [ ] Mounting file in a directory
     - [ ] Job
