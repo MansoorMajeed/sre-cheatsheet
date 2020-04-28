@@ -113,15 +113,15 @@ metadata:
 spec:
   type: LoadBalancer
   # To use static IP for LB
-  loadBalancerIP: 10.142.0.32
+  loadBalancerIP: 10.0.0.1
   ports:
     - port: 3000
       targetPort: 3000
       protocol: TCP
   selector:
     name: my-app
-    app: node-api
-    env: blr
+    app: my-app
+    env: production
 ```
 
 ## HPA
