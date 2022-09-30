@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: app2
+  namespace: default
+spec:
+  type: ExternalName
+  externalName: app2-svc.app2.svc.cluster.local
+  ports:
+  - port: 80
